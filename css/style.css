@@ -1,20 +1,83 @@
-header{position: fixed; width: 100%; background:#fff;padding: 10px 0;height:100px}
-#menu{list-style: none}
-#menu li{float: left;}
-#logo img{height: 70px}
-header.shrink {
-    height: 70px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+body{font-family: 'Hind', sans-serif;}
+strong{font-weight: 900; color:#282828 !important}
+.cursiva{font-family: 'Parisienne', cursive;}
+header{position: fixed; width: 100%; background:#fff;padding: 10px 0;height:100px; z-index: 4; float: left;     opacity: 0.9; top: 0}
+#menu{list-style: none; float: right;padding-top: 25px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+#menu li{float: left; margin-right: 15px; }
+#menu li a{color: #343434}
+#logo img{height: 70px; float: left;}
+header.shrink {height: 60px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+header.shrink img{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
+header.shrink #logo img{height: 40px}
+header.shrink #menu{padding-top: 15px}
+header.shrink #menumovil{top: 5px}
+#carousel{margin-top: 100px; float: left;}
+#content{float: left;  width: 100%; position: relative;}
+.w100{width: 100%}
+.entrada{margin-bottom: 30px}
+.entrada .imagen{width: 30%;float: left;}
+.entrada .texto{float: left;width: 70%;}
+.entrada .texto h3{line-height: 23px;margin: 0;margin-left: 10px;color: #a14380}
+.entrada .texto p{margin-left: 10px;}
+a{color: #a14380;}
+a:hover{color: #a14380;text-decoration: none}
+.tar{text-align: right;}
+.ornamento{width: 150px;margin: 0 auto;display: block;}
+#menumovil{position: absolute;right: 10px;top: 25px;font-size: 24px;display: none}
+.container{position: relative;}
+.tac{text-align: center}
+.f27{font-size: 27px}
+.ml100{margin-left: 100px}
+.testimoniales{color:#fff;padding:20px 0;background: url(../img/ornamento2.png) #980062 center;background-size: cover;margin-top: 20px}
+footer{background:#aeafb3;color: #fff;float: left;width: 100%;padding:20px 0}
+footer a{color: #fff;}
+.logos{list-style: none; height: 80px}
+.logos li{float: left;}
+.logos li:first-child{margin-right: 120px}
+.logos li img{height: 70px}
+.weddingwire{display: block;margin-top: 10px}
+#social{position: fixed;top: 5px;right: 40px;z-index: 5;}
+#social ul{list-style: none}
+#social ul li{float: left; margin-right: 10px}
+p{margin-bottom: 20px}
+.clear{clear: both}
+div.galeria {margin-top: 100px;}
+h1.galeria{padding-top: 100px}
+.modGaleria{margin-bottom: 30px}
+.tituloGaleria{color: #a14380}
+.owl-next {position: absolute;right: 20px;top: 50%;margin-top: -14px;}
+.owl-prev {position: absolute;left: 20px;top: 50%;margin-top: -14px;}
+.owl-theme .owl-nav [class*=owl-]{background: #a14380}
+.textosBlogPrincipal {background: #000;color: #fff;position: absolute;bottom: 0;width: 100%;opacity: 0.8;}
+.textosBlogPrincipal a{color: #fff;}
+.textosBlogPrincipal h2{padding: 0 10px;font-family: 'Parisienne', cursive;}
+.textosBlogPrincipal p{padding: 0 10px;}
+.tituloGaleria p{color: #333;}
+article{margin-bottom: 50px}
+article img{width: 100%}
+.sharers{ position: absolute; bottom: 0; width: 100%;}
+.sharers ul{list-style: none; padding: 0;}
+.sharers ul li{float: left; width: 33.33%;height: 30px; text-align: center}
+.s_facebook{background: #3b5998;width: 100%;display: block;height: 30px; color: #fff; padding-top: 7px}
+.s_twitter{background: #4099ff;width: 100%;display: block;height: 30px; color: #fff; padding-top: 7px}
+.s_whatsapp{background: #34af23;width: 100%;display: block;height: 30px; color: #fff; padding-top: 7px}
+@media only screen and (max-width : 1200px) {
+
 }
-header.shrink img
-{
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+@media only screen and (max-width : 992px) {
+
+}
+@media only screen and (max-width : 768px) {
+    #menumovil{display: block;}
+    #menu{display: none}
+}
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 320px) {
+        
 }
 
-header.shrink #logo img{
-	height: 40px
-}
+
+
+
